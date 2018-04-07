@@ -33,16 +33,11 @@ public class FilaCircular {
     }
     
     public boolean cheia(){
-        if(this.fim==this.objeto.length && inicio==0)
-            return true;
-        return false;
+        return this.fim==this.objeto.length && inicio==0;
     }
     
     public boolean vazia(){
-        if(inicio==fim&&fim==0){
-            return true;
-        }else
-            return false;
+        return inicio==fim&&fim==0;
     }
     
     public Object Frente(){
